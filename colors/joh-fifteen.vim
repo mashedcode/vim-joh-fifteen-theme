@@ -126,6 +126,8 @@ call s:Highlight('Error', s:mordant, s:greys[5], 'bold')
 call s:Highlight('ErrorMsg', s:mordant, '', 'bold')
 call s:Highlight('WarningMsg', s:mordant, '', '')
 
+call s:Highlight('NeomakeError', s:mordant, '', 'bold')
+
 call s:Highlight('Cursor', s:greys[5], s:white, '')
 call s:Highlight('vCursor', s:greys[5], s:white, '')
 call s:Highlight('iCursor', s:greys[5], s:white, '')
@@ -273,3 +275,4 @@ call s:Highlight('CtrlPPrtBase', '', '', 'bold')
 
 " taglist.vim
 call s:Highlight('TagListTitle', s:white, '', 'bold')
+
